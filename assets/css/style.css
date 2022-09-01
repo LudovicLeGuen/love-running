@@ -218,10 +218,27 @@ hr {
     box-sizing: border-box;
 }
 
+/* footer */
+
 #times h2 {
     color: #fafafa;
 }
 
 footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
     color: #3a3a3a;
+    margin: 1%;
+    padding: 5%;
+    font-size: 160%;
 }
